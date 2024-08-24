@@ -77,7 +77,7 @@ To appear at **FCS 2024**
 
  - *Proactive data acquisition module*：利用丰富传感器、资源受限的AIoT设备作为**智能体**，形成**自组织**集群，实现高效的数据采集，显著提升感知性能，并减少连接智能体之间的冗余信息。*DeepSwarm* 中的数据采集应自主选择和关联AIoT设备和传感器模式，并配置传感参数。例如，根据数据处理反馈，采样率以最小的开销（例如通信和能源成本）最大限度地提高融合数据质量。
  - *Proactive data processing module*：以深度学习任务的形式高效处理获取的数据，包括推理、训练和适应（微调、演化），以实现**自适应**和**自演化**的群体系统。*DeepSwarm* 中的数据处理预计将按需、实时地扩展，并具有高资源效率。
-   ![DeepSwarm 图示，这是一个通用系统框架，用于实现 Swarm DL 的生物定向优化。](https://i-blog.csdnimg.cn/direct/34f60a3173c94bb9bfa187dd88eff2e4.png#pic_center)
+![DeepSwarm 图示，这是一个通用系统框架，用于实现 Swarm DL 的生物定向优化。](https://i-blog.csdnimg.cn/direct/34f60a3173c94bb9bfa187dd88eff2e4.png#pic_center)
 
 ### 模块功能
 
@@ -126,7 +126,7 @@ To appear at **FCS 2024**
 - 在深度学习训练任务中，错误处理不可靠的数据样本会对准确性产生负面影响。
 - 在瞬息万变的感知环境中，数据传输中的滞后问题也会对计算精度造成干扰。具体来说，在异步分布式深度学习中，这种增加的数据过时性会导致深度学习模型更新期间出现更严重的参数错误。
 - 排除不可靠的数据样本会留下潜在的冗余，建立一个旨在识别可靠和非冗余样本的主动样本选择标准是必要的，但也具有挑战性。
-  ![使用异构数据进行自适应非阻塞 DL 推理的图示。](https://i-blog.csdnimg.cn/direct/b116ca1630454061bddb71132928b3ff.png#pic_center)
+![使用异构数据进行自适应非阻塞 DL 推理的图示。](https://i-blog.csdnimg.cn/direct/b116ca1630454061bddb71132928b3ff.png#pic_center)
 
 #### 运行时采样率适配
 
